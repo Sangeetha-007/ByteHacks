@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class TreasuresController {
 
-
+    Mapper map = new Mapper();
 
     @GetMapping("/treasure")
     public String sendBlurb(){
