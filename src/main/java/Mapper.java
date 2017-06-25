@@ -12,7 +12,7 @@ public class Mapper implements IMapper{
 
 
     public String getTreasure(){
-
+        return "";
     }
 
     public static void main(String[] args) {
