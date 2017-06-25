@@ -15,5 +15,6 @@ public class TreasuresController {
     public String sendBlurb(){
         WikipediaClient client = new WikipediaClient();
         String result = client.getContentForSearchTerm("Ada Lovelace");
+        return "treasure";
     }
 }
